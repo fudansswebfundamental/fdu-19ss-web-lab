@@ -1,9 +1,11 @@
 # 初识 WEB - Lab 00
 
 在这个 Lab 中，我们将了解 Web 的一些常用信息及获取信息的工具。
+
+
 这次的作业为多个截图，请做成一个 PDF 文件。
 
-
+----------
 
 ## 你的 IP 地址 (IP address)
 
@@ -11,10 +13,13 @@
 
     **Windows 7:**
     点击 Windows 徽标，在开始菜单下的搜索栏中输入“cmd”，点开命令提示符。
+
     **Windows 10:**
     右击 Windows 徽标，选择“Windows PowerShell(I)”。
+
      **macOS / OS X:**
     通过 Spotlight Search 输入“terminal”打开 Terminal。或者打开 Launchpad，在 Other 文件夹下点击 Terminal。
+
      **Linux:**
     打开 Terminal。*(用 Linux 的人找不到 Terminal 的话请换以上其他操作系统。)*
 
@@ -67,7 +72,7 @@ macOS / OS X / Linux 用户提交“status”为“active”的部分的截图�
 
 ## 分析一个网页的组成部分
 
-此处推荐使用 Chrome 浏览器，但依然会提供 Safari  和 Microsoft Edge 两款浏览器的操作流程。只需完成其中之一即可：
+此处推荐使用 Chrome 浏览器，但依然会提供 Safari  和 Microsoft Edge 两款浏览器的操作流程。只需完成其中之一即可（**建议大家尽量使用Chrome**）：
 
 **Chrome:**
 
@@ -322,20 +327,10 @@ e.g. //github.com/mondaylord/SOFT130002_lab
 `root` 即直接打开仓库所见的层，或写作 `/` 
 
 ```
-/16302010043_龙京奇.pdf
-/images
-/images/nslookup.jpg
-/images/whois.jpg
-...
+/lab0
+   /16302010043_龙京奇.pdf
+   /images
+      /images/nslookup.jpg
+      /images/whois.jpg
+      ...
 ```
-
--------------------
-
-## 参考资料
-
- 1. Randy Connolly, Ricardo Hoar, "LAB 1 - HOW THE WEB WORKS" in *Fundamentals of Web Development* 1^st^ ed., Addison-Wesley, 2014.
-
--------------------
-
-## LAB 相关
-有任何疑问欢迎通过超星讨论区或微信群聊联系助教。
