@@ -1,0 +1,79 @@
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+html, body, header, footer, hgroup, nav, main, article, section, figure, figcaption, h1, h2, h3, ul, li, body, div, p, img
+{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    border: 0;
+}
+body{
+    max-width: 80%;
+    margin: 0 auto;
+    vertical-align: center;
+    background-color:white;
+    height: 100%;
+}
+
+
+#nav{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: xx-large;
+    background-color: rgba(203,71,152, 0.3);
+}
+
+.item{
+    background-color: RGB(179,104,168);
+    color: #ECF0F1;
+    margin:0 auto;
+    padding:2%;
+    width:auto;
+    height:auto;
+    font-family: 'Oswald', Arial, sans-serif;
+    margin-top: 2%;
+    text-align: center;
+    vertical-align: center;
+}
+.item div{
+    margin-bottom: 1em;
+}
+
+.item p {
+    width:100%;
+    font-size: 12pt;
+}
+
+label{
+    cursor: pointer;
+    display: inline-block;
+    padding: 3px 6px;
+    text-align: right;
+    width: 10em;
+    vertical-align: top;
+}
+input{
+    width: 70%;
+    height: 2em;
+}
+
+button {
+    font-family: 'Oswald', Arial, sans-serif;
+    background-color: #FF4081;
+    color: white;
+    padding: 0 7px 2px 7px;
+    margin-top: 7px;
+    width: 90%;
+    height: 3em;
+    border: none;
+}
+button:hover {
+    background-color: #FF80AB;
+    cursor: pointer;
+}
+button:active {
+    background-color: #F8BBD0;
+    cursor: pointer;
+}
