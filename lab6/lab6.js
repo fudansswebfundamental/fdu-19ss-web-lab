@@ -67,7 +67,7 @@ function testKeyBoard(wantInput, actualInput) {
     ①如果输入的字符串前后有空格，输出中应该去除前后空格。如果输入字符串中间出现连续的两个空格，输出应该变为一个。
     比如输入是“  hello  world!  ”，输出应该是“world! hello”。
     ②请使用Array。
-    ③使用console.log打印即可，将该数组打印出来。
+    ③使用console.log打印即可，将该字符串打印出来。
     ④只能显式使用一次循环。
     ⑤str为字符串。
 */
