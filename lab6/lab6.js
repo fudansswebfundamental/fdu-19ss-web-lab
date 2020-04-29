@@ -99,7 +99,7 @@ function twoSum(nums, target) {
     打印最长的包含不同字符串的子字符串长度。
 要求：
     ①使用Map。
-    ②例如：输入"abbbbb",输出1，输入"bbbbb",输出2；
+    ②例如：输入"abbbbb",输出2，输入"bbbbb",输出1；
     ③只能显式使用一次循环。
     ④使用console.log打印即可。
     ⑤str为字符串。
