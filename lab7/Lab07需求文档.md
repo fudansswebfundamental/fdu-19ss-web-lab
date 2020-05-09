@@ -12,13 +12,13 @@
 
 请补充lab07.js使得双击lab07.html呈现下列效果：
 
-<video src="C:\Users\L2595\Desktop\class3\2020-web\Lab07\lab7-1.mp4"></video>
+<video src="./lab7-1.mp4"></video>
 
 以下为截图：
 
-<img src="C:\Users\L2595\Desktop\class3\2020-web\Lab07\Lab07需求文档.assets\效果1-1585464975284.png" alt="效果1" style="zoom:50%;" />
+<img src="效果1.png" alt="效果1" style="zoom:50%;" />
 
-<img src="C:\Users\L2595\Desktop\class3\2020-web\Lab07\Lab07需求文档.assets\效果2-1585465099134.png" alt="效果2" style="zoom:50%;" />
+<img src="./效果2.png" alt="效果2" style="zoom:50%;" />
 
 ## 文件结构
 
