@@ -12,7 +12,7 @@ Goal of this lab: build PHP environment & write simple PHP code
 >      lab9-exercise0.php  
 >      lab9-exercise1.php  
 
-__DDL: 23:59:59  May 30th 2020__
+__DDL: 23:59:59  May 31th 2020__
 
 __Hint: Please contact us if you have any questions__  
 
