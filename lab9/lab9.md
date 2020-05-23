@@ -40,16 +40,16 @@ You should install PHP first before this lab. If you have installed it, you can 
 1. Open PhpStorm and create a project.  
 2. Click `Add Configuration` on the upper right corner.  
 3. `+`,`PHP Built-in Web Server`, and edit the settings as following.    
-   ![sample](/figures/1.png)  
+   ![sample](./figures/1.png)  
    You can see there is an error below, because we have not set the PHP Interpreter.  
 4. Go to Setting.    
    `Windows: Settings` and `Mac: Preferences`  
 5. `Languages & Frameworks`,`PHP`.  
    Step1: select PHP Language level as your version.  
    Step2: click `···` button to select `CLI Interpreter`  
-   ![sample](/figures/2.png)  
+   ![sample](./figures/2.png)  
 6. `+`,`Other Local`, and edit the settings.  
-   ![sample](/figures/3.png)  
+   ![sample](./figures/3.png)  
    Choose executable php file. The location of it:  
    >For windows:  
    >`X:\your_path\xampp\php\php.exe`  
@@ -61,7 +61,7 @@ You should install PHP first before this lab. If you have installed it, you can 
    >`/usr/local/bin/php`  
 7. Click `Apply` & `OK`  
 8. Configure `Deployment`   
-   ![sample](/figures/4.png)  
+   ![sample](.//figures/4.png)  
    select `+`,`Local or mounted folder`  
    Folder: select your project address  
    Web server url: `http://localhost:63342` (63342 is the port you set when you add configurations)  
