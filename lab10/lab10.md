@@ -1,4 +1,4 @@
-## Lab10
+# Lab10
 
 >Goal of Lab10:  
 >You will learn
@@ -24,7 +24,7 @@
 Please contact with us if you have any questions:)  
 
   
-### Exercise1: phpmyadmin   
+## Exercise1: phpmyadmin   
 **Do not need to take screenshots.**
 
 1. Since you have install `XAMPP`, open XAMPP and start all services `apache, mysql, ProFTPD`. And now you can visit <http://localhost/phpmyadmin/>  
@@ -35,7 +35,7 @@ Please contact with us if you have any questions:)
 A default installation of `MySQL` contains a variety of system tables used by `MySQL` 
 (which depending on your installation may or may not be visible here).  
 
-### Exercise2: INSTALLING DATABASE IN PHPMYADMIN   
+## Exercise2: INSTALLING DATABASE IN PHPMYADMIN   
 **Do not need to take screenshots.**
 
 1. Examine `art-small.sql` in a text editor. When done, close the file.  
@@ -59,7 +59,7 @@ A default installation of `MySQL` contains a variety of system tables used by `M
 7. Create a database named `travel` and then import `travels-small.sql`. Verify that it creates and populates a variety of tables.  
 8. Create a database named `book` and then import `books-small.sql`. Verify that it creates and populates a variety of tables.  
 
-### Exercise3: QUERYING A DATABASE  
+## Exercise3: QUERYING A DATABASE  
 **Do not need to take screenshots**  
 
 
@@ -97,7 +97,7 @@ _This will run the query. Notice that only the first 30 records are retrieved. T
    ```  
    _This query contains an aggregate function as well as a grouping command._  
    
-### Exercise4: MODIFYING RECORDS  
+## Exercise4: MODIFYING RECORDS  
 **Do not need to take screenshots**  
 
 
@@ -130,7 +130,7 @@ _You should see message about one row being inserted._
     ```
     SELECT * FROM Artists WHERE nationality = 'Italy'
     ```  
-### Exercise5: BUILD AN INDEX  
+## Exercise5: BUILD AN INDEX  
 **Do not need to take screenshots**  
 
 1. In phpMyAdmin, click on the **art** database, click on the artworks table, and then click on
@@ -143,7 +143,7 @@ _You will see a list of already-existing indexes. The import script for this dat
 4. In the pop-up window, name the index YearOfWork, the index type INDEX, and the column YearOfWork as shown in Figure2. Click **Go**.  
    ![figure2](./figures/2.png)  
    
-### Exercise6: CREATING USERS IN PHPADMIN
+## Exercise6: CREATING USERS IN PHPADMIN
 **Do not need to take screenshots**  
 1. In phpMyAdmin, click on the **art** database, and then click on the **Privileges** tab.  
 2. Click the **Add use**r link.  
@@ -155,7 +155,7 @@ _This will display the Add user page_
    Do not click **GENERATE** button!!!  
 4. Click the **Go** button.  
 
-### Exercise7: MYSQL THROUGH PHP  
+## Exercise7: MYSQL THROUGH PHP  
 
 1. Open `config.php` and modify the file as follows   
 (if you used different **username** and **password** in `Exercise6`, then you will have to change what you enter here.).  
@@ -228,7 +228,7 @@ For example, the  **username** we set is `testuser` and **password** is `mypassw
 6. As you can see, we provided two ways to accessing database. Please tell me what two pieces of code above did and how they worked (In other words, explain the code above).  
    Attach the two screenshots you took just now in the document.
 
-### Exercise8: INTEGRATING USER INPUTS (PDO)  
+## Exercise8: INTEGRATING USER INPUTS (PDO)  
 1. We provided you two ways to access the database in the last Exercise, and we use PDO for this part.  
    Open and examine `lab10-exercise8.php`.  
    _This page already contains the code for displaying a list of artist names. You will be adding the code to display a list of paintings whose ArtistId foreign key matches the selected artist._  
@@ -292,7 +292,7 @@ For example, the  **username** we set is `testuser` and **password** is `mypassw
 4. Test in browser. Take screenshots of the web page.  
 5. Explain three functions in `lab10-exercise8.php` and write it in the document.  Please also attach the screenshot in the document.  
 
-### Exercise9: PREPARED STATEMENTS  
+## Exercise9: PREPARED STATEMENTS  
 In this part, we provide another way to execute `SQL` code.  
 1. Open and examine `lab10-exercise9.php`.  
 2. Edit the following code and test.  
@@ -323,7 +323,7 @@ In this part, we provide another way to execute `SQL` code.
 3. Please baidu/google the way to execute sql code(执行sql语句的方式), and summarize them in the document.   
 Please also tell me the advantage of using Prepared Statements.  
 
-### [Optional] Exercise10: HTML LIST AND RESULTS  
+## [Optional] Exercise10: HTML LIST AND RESULTS  
 This part is optional. But it may be helpful to your Project2~  
 1. Open and examine lab10-exercise10.php.  
 
