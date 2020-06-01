@@ -280,13 +280,17 @@ For example, the  **username** we set is `testuser` and **password** is `mypassw
    function outputSinglePainting($row) {
       echo '<div class="item">';
       echo '<div class="image">';
-      echo '<img src="images/art/works/square-medium/' .$row['ImageFileName'] .'.jpg">'; echo '</div>';
-      echo '<div class="content">'; echo '<h4 class="header">'; echo $row['Title'];
+      echo '<img src="images/art/works/square-medium/' .$row['ImageFileName'] .'.jpg">'; 
+      echo '</div>';
+      echo '<div class="content">';
+      echo '<h4 class="header">'; 
+      echo $row['Title'];
       echo '</h4>';
       echo '<p class="description">';
       echo $row['Excerpt'];
       echo '</p>';
-      echo '</div>'; // end class=content echo '</div>'; // end class=item
+      echo '</div>'; // end class=content 
+      echo '</div>'; // end class=item
    }
    ```  
 4. Test in browser. Take screenshots of the web page.  
@@ -356,7 +360,8 @@ This part is optional. But it may be helpful to your Project2~
       echo '</div>';
       echo '<div class="extra">';
       echo '<h4>';
-      echo constructGenreLink($row['GenreId'], $row['GenreName']); echo '</h4>';
+      echo constructGenreLink($row['GenreId'], $row['GenreName']);
+      echo '</h4>';
       echo '</div>'; // end class=extra
       echo '</div>'; // end class=card
       }
