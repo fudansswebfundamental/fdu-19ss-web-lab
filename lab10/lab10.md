@@ -140,7 +140,7 @@ _You should see message about one row being inserted._
 _You will see a list of already-existing indexes. The import script for this database already has created indexes for the primary key, the foreign keys, and a two other fields._  
 
 3. Click the **Go** button in the section that begins Create an index  
-4. In the pop-up window, name the index YearOfWork, the index type INDEX, and the column YearOfWork as shown in Figure2. Click **Go**.  
+4. In the pop-up window, name the index YearOfBirth, the index type INDEX, and the column YearOfBirth as shown in Figure2. Click **Go**.  
    ![figure2](./figures/2.png)  
    
 ## Exercise6: CREATING USERS IN PHPADMIN
