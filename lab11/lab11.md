@@ -12,7 +12,7 @@ This lab does not require screenshots, just a document~
 Please contact with us if have any questions~  
 
 ### Exercise1: Using Cookie  
-1. Execute the database commands in `lab11-exercise1.sql` in `art`(the database you have created already). This will create tables to store user credentials.  
+1. Create a database named `Login`. Execute the database commands in `lab11-exercise1.sql` in `art`. This will create tables to store user credentials.  
 2. Open, examine, and test `lab11-exercise1.php`. You will see a webpage containing a single login form. The page is also configured to connect to the database you just created. If you try to enter information and submit, the form is posted but no action is taken (aside from saying `"Login attempted"`).  
 3. Add a function to check the posted credentials against the credentials stored in the database. If the user was successful, output a welcome message, otherwise output an error message with the form using code like:  
    ```php
