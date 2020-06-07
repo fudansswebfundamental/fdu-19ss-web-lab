@@ -5,7 +5,7 @@
 <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 
    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-   <title>Exercise 13-1 | Using Cookies</title>
+   <title>Exercise 11-1 | Using Cookies</title>
 </head>
 
 <body>
