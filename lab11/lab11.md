@@ -63,7 +63,7 @@ Please contact with us if have any questions~
        echo "Welcome ".$_POST['username'];  
        // add 1 day to the current time for expiry time   
        $expiryTime = time()+60*60*24;  
-       setcookie("UserName", $_POST['username'], $expiryTime);
+       setcookie("Username", $_POST['username'], $expiryTime);
    }
    ```  
 7. Now, before we even check for a `POST` we should consider whether a logged in user has a good cookie. Modify your code to check for the presence of a cookie but after checking for the post.  
